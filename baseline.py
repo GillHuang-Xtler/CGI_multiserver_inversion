@@ -85,6 +85,8 @@ def lfw_dataset(lfw_path, shape_img):
 def main():
     dataset = 'cifar100'
     root_path = '.'
+    if not os.path.exists("baseline"):
+        os.makedirs("baseline")
     data_path = os.path.join(root_path, 'data').replace('\\', '/')
     save_path = os.path.join(root_path, 'baseline/iDLG_%s' % dataset).replace('\\', '/')
 

@@ -1,15 +1,14 @@
-## Multi-servers Gradient inversion attacks on classifier
+# Collusive_Gradient_inversion_attack
 
-### The methods of the paper is shown in methods.py.
-mdlg: multi-servers gradient inversion
-mdlg_mt: multi-servers gradient inversion for multiple tasks
+Code repository for paper "On Quantifying the Gradient Inversion Risk of Data Reuse in Federated Learning Systems", SRDS2024.
 
-### Requirements
-pytorch1.13.1
+# To run this file
 
-torchvision0.15.1
+- python version: pytorch 1.13.1, torchvision 0.15.1
+- pip install -r requirements.txt
+- arguments are in 'arguments.py'
+- python run.py
 
-### How to run the experiments?
-Please use "python run.py"
-
-The file argusments.py is for setting the experiment parameters.
+### Configuration
+- mdlg: multi-servers gradient inversion
+- mdlg_mt: multi-servers gradient inversion for multiple tasks

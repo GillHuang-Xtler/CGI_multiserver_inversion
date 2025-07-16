@@ -5,7 +5,6 @@ Code repository for paper "On Quantifying the Gradient Inversion Risk of Data Re
 # To run this file
 
 - python version: pytorch 1.13.1, torchvision 0.15.1
-- pip install -r requirements.txt
 - arguments are in 'arguments.py'
 - python run.py
 

@@ -3,10 +3,11 @@
 Code repository for paper "On Quantifying the Gradient Inversion Risk of Data Reuse in Federated Learning Systems", SRDS2024.
 
 # To run this file
+- pip install -r requirements.txt
+- python cgi.py
 
-- python version: pytorch 1.13.1, torchvision 0.15.1
+# Note
 - arguments are in 'arguments.py'
-- python run.py
 
 ### Configuration
 - mdlg: multi-servers gradient inversion
